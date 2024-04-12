@@ -13,6 +13,10 @@
 		2B31D9A52BB25EEA00AABFD6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2B31D9A42BB25EEA00AABFD6 /* Base */; };
 		2B31D9A72BB25EEC00AABFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B31D9A62BB25EEC00AABFD6 /* Assets.xcassets */; };
 		2B31D9AA2BB25EEC00AABFD6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2B31D9A92BB25EEC00AABFD6 /* Base */; };
+		2BC6A5912BB3AB880075C7B5 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6A5902BB3AB880075C7B5 /* QuestaoViewController.swift */; };
+		2BC6A5932BB3BB3E0075C7B5 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6A5922BB3BB3E0075C7B5 /* Questao.swift */; };
+		2BC6A5952BB3C6660075C7B5 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6A5942BB3C6660075C7B5 /* DesempenhoViewController.swift */; };
+		2BC6A59A2BB3D3390075C7B5 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6A5992BB3D3390075C7B5 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2B31D9A62BB25EEC00AABFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B31D9A92BB25EEC00AABFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B31D9AB2BB25EEC00AABFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC6A5902BB3AB880075C7B5 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		2BC6A5922BB3BB3E0075C7B5 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		2BC6A5942BB3C6660075C7B5 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
+		2BC6A5992BB3D3390075C7B5 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		2B31D99C2BB25EEA00AABFD6 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				2BC6A5982BB3D3150075C7B5 /* Extensions */,
+				2BC6A5972BB3D24C0075C7B5 /* Modelo */,
+				2BC6A5962BB3D2110075C7B5 /* ViewController */,
 				2B31D99D2BB25EEA00AABFD6 /* AppDelegate.swift */,
 				2B31D99F2BB25EEA00AABFD6 /* SceneDelegate.swift */,
-				2B31D9A12BB25EEA00AABFD6 /* ViewController.swift */,
 				2B31D9A32BB25EEA00AABFD6 /* Main.storyboard */,
 				2B31D9A62BB25EEC00AABFD6 /* Assets.xcassets */,
 				2B31D9A82BB25EEC00AABFD6 /* LaunchScreen.storyboard */,
 				2B31D9AB2BB25EEC00AABFD6 /* Info.plist */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		2BC6A5962BB3D2110075C7B5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6A5942BB3C6660075C7B5 /* DesempenhoViewController.swift */,
+				2BC6A5902BB3AB880075C7B5 /* QuestaoViewController.swift */,
+				2B31D9A12BB25EEA00AABFD6 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2BC6A5972BB3D24C0075C7B5 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6A5922BB3BB3E0075C7B5 /* Questao.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		2BC6A5982BB3D3150075C7B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6A5992BB3D3390075C7B5 /* UIColor+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +177,10 @@
 				2B31D9A22BB25EEA00AABFD6 /* ViewController.swift in Sources */,
 				2B31D99E2BB25EEA00AABFD6 /* AppDelegate.swift in Sources */,
 				2B31D9A02BB25EEA00AABFD6 /* SceneDelegate.swift in Sources */,
+				2BC6A5932BB3BB3E0075C7B5 /* Questao.swift in Sources */,
+				2BC6A5952BB3C6660075C7B5 /* DesempenhoViewController.swift in Sources */,
+				2BC6A5912BB3AB880075C7B5 /* QuestaoViewController.swift in Sources */,
+				2BC6A59A2BB3D3390075C7B5 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +367,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
